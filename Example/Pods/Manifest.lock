@@ -1,0 +1,16 @@
+PODS:
+  - KKPodTest (0.1.0)
+
+DEPENDENCIES:
+  - KKPodTest (from `../`)
+
+EXTERNAL SOURCES:
+  KKPodTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KKPodTest: 86bf4630d7f917aee730f59bb96c5b07fc750f6a
+
+PODFILE CHECKSUM: b6f88da4a997e92ee403870e137c902c6222cbce
+
+COCOAPODS: 1.11.2
