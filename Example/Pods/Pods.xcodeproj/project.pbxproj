@@ -12,10 +12,12 @@
 		5AF0DC2ACEB87FCF33FB2AA34AEC5283 /* Pods-KKPodTest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3068055701AA82F3C44902276DC19C14 /* Pods-KKPodTest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		668E2454BC89E86A85694A43ECA6C90D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		907B01927F4F6EF4A45E9B2B8E8BB8A5 /* Pods-KKPodTest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C7B15FEA6EBB951DB1E2322513E8F94 /* Pods-KKPodTest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		922235F22736C6A900DBCA41 /* KKPodTest.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 922235F12736C6A900DBCA41 /* KKPodTest.xcassets */; };
+		922235F62736C70700DBCA41 /* MView.h in Headers */ = {isa = PBXBuildFile; fileRef = 922235F42736C70700DBCA41 /* MView.h */; };
+		922235F72736C70700DBCA41 /* MView.m in Sources */ = {isa = PBXBuildFile; fileRef = 922235F52736C70700DBCA41 /* MView.m */; };
 		9BB82D6A51EF842E2BFC5DCABD14D5AA /* Pods-KKPodTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2BA932A3F88C9BF44FD08EB8FCAC2A /* Pods-KKPodTest_Tests-dummy.m */; };
 		BB0D607299C5F981714066CBD24566FC /* Pods-KKPodTest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5905C00535203EF50C25EF8777AEB6 /* Pods-KKPodTest_Example-dummy.m */; };
 		C34492E7A05085FD38B67E6C39171515 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		C55562974AF846E1BB34D102159220CF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BD55F17E94446FF80C96F795B55667 /* ReplaceMe.m */; };
 		EFDB7AFAB7D06CDFF91D25DEB8914783 /* KKPodTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CFB20FF64CC1A8A20800A449390A35F /* KKPodTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -45,7 +47,7 @@
 		336A9259980D7C75216712040BB75226 /* Pods-KKPodTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKPodTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3C7B15FEA6EBB951DB1E2322513E8F94 /* Pods-KKPodTest_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKPodTest_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3CFB20FF64CC1A8A20800A449390A35F /* KKPodTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKPodTest-umbrella.h"; sourceTree = "<group>"; };
-		4CF034D248EBFDA9DC9D3F4F958DE4FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4CF034D248EBFDA9DC9D3F4F958DE4FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5B381BB3F3EAC7790F8BA01063F79757 /* Pods-KKPodTest_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKPodTest_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		69CCC9356F0F4B75DCC64E36DC326C47 /* KKPodTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKPodTest.debug.xcconfig; sourceTree = "<group>"; };
 		6C2BA932A3F88C9BF44FD08EB8FCAC2A /* Pods-KKPodTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKPodTest_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -56,8 +58,11 @@
 		84D60B51E1822E86E17F85F0D9CF25DA /* Pods-KKPodTest_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KKPodTest_Example"; path = Pods_KKPodTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8809511BCCEF05B091951BF6966C7276 /* Pods-KKPodTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKPodTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8AEB3C094E1041B09D9B8A482DC4BD43 /* Pods-KKPodTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKPodTest_Tests.modulemap"; sourceTree = "<group>"; };
-		9B5ED76E37EA3DF172C4DB16E5889EED /* KKPodTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KKPodTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		922235F12736C6A900DBCA41 /* KKPodTest.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = KKPodTest.xcassets; sourceTree = "<group>"; };
+		922235F42736C70700DBCA41 /* MView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MView.h; sourceTree = "<group>"; };
+		922235F52736C70700DBCA41 /* MView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MView.m; sourceTree = "<group>"; };
+		9B5ED76E37EA3DF172C4DB16E5889EED /* KKPodTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KKPodTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1EC4B583C3495A6588E016FBFB3093B /* KKPodTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKPodTest-prefix.pch"; sourceTree = "<group>"; };
 		AC5905C00535203EF50C25EF8777AEB6 /* Pods-KKPodTest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKPodTest_Example-dummy.m"; sourceTree = "<group>"; };
 		B7351383C2C71F6D57E1535AFF8485D2 /* Pods-KKPodTest_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KKPodTest_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -67,8 +72,7 @@
 		CB9603592BB036926F6704086860E6B0 /* KKPodTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KKPodTest-dummy.m"; sourceTree = "<group>"; };
 		D7246592A7D8D4F3C3607A848DDA2DBE /* Pods-KKPodTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKPodTest_Example.modulemap"; sourceTree = "<group>"; };
 		E97237889E3E9544C9C3FB66408CD3E0 /* Pods-KKPodTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKPodTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F243AA61702A6FAC41EFC7F1EEE4DE65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F2BD55F17E94446FF80C96F795B55667 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = KKPodTest/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		F243AA61702A6FAC41EFC7F1EEE4DE65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FEB361891CDDC184351D1603E501B0C6 /* KKPodTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KKPodTest.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,7 +133,8 @@
 		7B2981D1404714046C1C5B5B3BB5C18B /* KKPodTest */ = {
 			isa = PBXGroup;
 			children = (
-				F2BD55F17E94446FF80C96F795B55667 /* ReplaceMe.m */,
+				922235F02736C5F700DBCA41 /* Classes */,
+				922235EF2736C5EF00DBCA41 /* Assets */,
 				28E86ECBDD91E9DC16FBE3B0D37F6EA7 /* Pod */,
 				85B10D0D9E95724CD29AF613EB2A6C16 /* Support Files */,
 			);
@@ -150,6 +155,31 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/KKPodTest";
+			sourceTree = "<group>";
+		};
+		922235EF2736C5EF00DBCA41 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				922235F12736C6A900DBCA41 /* KKPodTest.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		922235F02736C5F700DBCA41 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				922235F32736C6E900DBCA41 /* UIKit */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		922235F32736C6E900DBCA41 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				922235F42736C70700DBCA41 /* MView.h */,
+				922235F52736C70700DBCA41 /* MView.m */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 		CC8A63B12B1C967DFD1AC621464AAE00 /* Products */ = {
@@ -231,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFDB7AFAB7D06CDFF91D25DEB8914783 /* KKPodTest-umbrella.h in Headers */,
+				922235F62736C70700DBCA41 /* MView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +374,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				922235F22736C6A900DBCA41 /* KKPodTest.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,8 +407,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				922235F72736C70700DBCA41 /* MView.m in Sources */,
 				3BB0A32CFF1EA34B1A30A21499D1C24A /* KKPodTest-dummy.m in Sources */,
-				C55562974AF846E1BB34D102159220CF /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,8 +750,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
